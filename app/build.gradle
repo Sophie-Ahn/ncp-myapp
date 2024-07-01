@@ -28,6 +28,11 @@ task appNpmInstall(type: NpmTask) {
   args = ["install"]
 }
 
+// 이렇게 써주면 위의 task appNpmInstall을 안 써줘도 됨
+//processResources{
+//  dependsOn: "appNpmInstall";
+//}
+
 group = 'bitcamp'
 version = '0.0.1-SNAPSHOT'
 

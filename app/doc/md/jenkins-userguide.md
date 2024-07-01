@@ -166,7 +166,7 @@ root 사용자로 젠킨스 컨테이너에 접속하기
     - JDK
       - 'Add JDK' 클릭
         - Name: `openjdk-17`
-        - JAVA_HOME: `/usr/lib/jvm/java-17-openjdk-amd64`
+        - JAVA_HOME: `/opt/java/openjdk`
     - SAVE 클릭
 
 ### github.com의 프로젝트 연동
